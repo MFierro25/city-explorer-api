@@ -5,11 +5,10 @@ require('dotenv').config();
 const express = require('express');
 
 const cors = require('cors');
-const { response } = require('express');
 
 const weather = require('./data/weather.json')
 const app = express();
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3001
 
 app.use(cors());
 
@@ -47,4 +46,4 @@ class WeatherForecast {
     }
 }
 
-app.listen(PORT, () => console.log('server is up on '));
+app.listen(PORT, () => console.log(`server is up on ${PORT}`));
