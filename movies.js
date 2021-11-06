@@ -6,6 +6,8 @@ class Movie {
     constructor(obj) {
         this.title = obj.title;
         this.overview = obj.overview;
+        this.poster_path = obj.poster_path;
+        this.release_date = obj.release_date;
     }
 }
 
