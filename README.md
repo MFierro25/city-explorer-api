@@ -22,6 +22,7 @@ after searching your City you will be prompted to a server that sends back weath
 11-03-2021 7:48am - Application now has an express server, with a GET route for the location resource. <br>
 11-03-2021 3:59pm - Server is up running and has proper Querys
 11/04/2021 4:53pm - made working Weather and movie database Api
+11/05/2021 5:11pm - deployed working api to heroku and refactored properly
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
